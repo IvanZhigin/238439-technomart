@@ -3,4 +3,70 @@ body {
 	font-size 17px: 
 	color: #ffffff;
 	font-weight: normal;
+	
+}
+
+.page-header {
+    min-height: 42px;
+    background-color: #293449;
+}
+
+.container {
+	width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.header-logo{
+    min-height: 42px;
+    width: 220px;
+    float: left;
+    margin-left: 10px;
+}
+
+.search {
+    min-height: 42px;
+    width: 240px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.orders-block {
+    min-height: 42px;
+    width: 460px;
+    float: right;
+    margin-right: 10px;
+}
+
+.top-main {
+	min-height: 280px;
+	background-color: #f1f5f7;
+}
+
+.about-site {
+	height: 60px;
+	width: 196px;
+	margin-top: 55px;
+	margin-left: 61px;
+	float: left;
+}
+
+.main-contacts {
+	height: 72px;
+	width: 270px;
+	float: left;
+}
+
+.user-block {
+	height: 72px;
+	width: 300px;
+    float: right;
+}
+
+.main-nav {
+	height: 60px;
+	width: 940px;
+	background-color: #32425c;
+	margin-bottom: 60px;
 }
