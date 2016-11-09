@@ -1,72 +1,313 @@
 body {
 	font-family: "PTSans", "Cuprum";
-	font-size 17px: 
-	color: #ffffff;
+	font-size 17px;
+	color: #000000;
 	font-weight: normal;
 	
 }
 
 .page-header {
-    min-height: 42px;
-    background-color: #293449;
+	background-color: #293449;
 }
 
 .container {
-	width: 960px;
+	width: 940px;
 	padding: 0 10px;
 	margin: 0 auto;
 }
 
-.header-logo{
-    min-height: 42px;
-    width: 220px;
-    float: left;
-    margin-left: 10px;
+.header-logo {
+	width: 220px;
+	float: left;
 }
 
 .search {
     min-height: 42px;
-    width: 240px;
+    width: 230px;
     float: left;
-    margin-left: 10px;
-    margin-top: 10px;
+    background-color: green;
+    margin-top: 6px;
 }
 
-.orders-block {
+.orders-block{
     min-height: 42px;
     width: 460px;
     float: right;
-    margin-right: 10px;
+    background-color: red;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .top-main {
-	min-height: 280px;
 	background-color: #f1f5f7;
+	min-height: 279px;
 }
 
 .about-site {
-	height: 60px;
 	width: 196px;
-	margin-top: 55px;
-	margin-left: 61px;
+	height: 61px;
+	margin-top: 38px;
+	margin-left: 54px;
 	float: left;
+	background-color: yellow;
 }
 
 .main-contacts {
-	height: 72px;
-	width: 270px;
+	width: 300px;
+	height: 70px;
 	float: left;
+	margin-top: 47px;
+	margin-left: 72px;
+	background-color: red;
 }
 
 .user-block {
-	height: 72px;
-	width: 300px;
     float: right;
+    width: 281px;
+    height: 46px;
+    margin-right: 10px;
+    margin-top: 47px;
+    margin-bottom: 67px;
+    background-color: yellowgreen;
 }
 
 .main-nav {
 	height: 60px;
 	width: 940px;
+	clear: both;
 	background-color: #32425c;
-	margin-bottom: 60px;
+	margin-top: 160px;
+}
+
+.menu {
+	margin-top: 60px;
+	width: 940px;
+	height: 410px;
+}
+
+.materials-tool-mechanism {
+	min-height: 123px;
+	clear: both;
+}
+
+.materials {
+	width: 300px;
+	height: 123px;
+	float: left;
+	background-color: #f6b22d;
+}
+
+.tool {
+	width: 300px;
+	height: 123px;
+	float: left;
+	margin-left: 20px;
+	background-color: #4aafde;
+}
+
+.mechanism {
+	width: 300px;
+	height: 123px;
+	float: right;
+	margin-left: 20px;
+	background-color: #cc79d1;
+}
+
+.drill {
+    height: 266px;
+    width: 620px;
+    margin-top: 20px;
+    background-color: #927965; 
+    float: left;
+}
+
+.discount {
+	width: 300px;
+	height: 123px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: right;
+	background-color: #85d179;
+}
+
+.delivery {
+	width: 300px;
+	height: 123px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: right;
+	background-color: #f6b22d;
+}
+
+.product-block {
+	width: 940px;
+	height: 430px;
+	margin-top: 50px;
+}
+
+.popular-products {
+	width: 940px;
+	height: 90px;
+	clear: both;
+	background-color: #f7f3ec;
+}
+
+.popular-products h2 {
+	float: left;
+	margin-top: 33px;
+	margin-left: 30px;
+}
+
+.popular-products input {
+    float: right;
+    margin-top: 25px;
+    margin-right: 24px;
+}
+
+.tile {
+	margin-top: 20px;
+	clear: both;
+}
+
+.grid {
+	width: 220px;
+	height: 320px;
+	margin-right: 20px;
+	float: left;
+	background-color: yellowgreen;
+}
+
+.grid:last-child{
+	margin-right: 0px;
+}
+
+.company-block {
+	width: 940px;
+	height: 430px;
+	margin-top: 20px;
+}
+
+.popular-companies {
+	width: 940px;
+	height: 90px;
+	clear: both;
+	background-color: #f7f3ec;
+}
+
+.popular-companies h2 {
+	float: left;
+	margin-top: 33px;
+	margin-left: 30px;
+}
+
+.popular-companies input {
+    float: right;
+    margin-top: 25px;
+    margin-right: 24px;
+}
+
+.grid-tileC {
+	margin-top: 20px;
+}
+
+.tileC  {
+	margin-bottom: 20px;
+	margin-right: 16px;
+	width: 220px;
+	height: 145px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: red;
+}
+
+.tileC:nth-child(4n) {
+	margin-right: 0px;
+}
+
+.service-block {
+	background-color: #f2f6f8;
+	width: 940px;
+	height: 454px;
+	margin-top: 55px;
+}
+
+.service {
+	height: 154px;
+	width: 560px;
+	margin-left: 10px;
+	margin-top: 68px;
+	background-color: #20433f;
+}
+
+.delivery-guarantee-credit {
+	width: 940px
+	height: 282px;
+	margin-top: 18px;
+}
+
+.service-list {
+	width: 240px;
+	height: 180px;
+	background-color: greenyellow;
+	margin-top: 16px;
+	float: left;
+}
+
+.delivery-block {
+	height: 152px;
+	width: 310px;
+	margin-left: 80px;
+	margin-top: 16px;
+	background-color: #12fd31;
+	float: left;
+}
+
+.service-block img {
+	margin-top: 39px;
+	float: right;
+}
+
+.about-us {
+	height: 368px;
+	width: 540px;
+	margin-top: 80px;
+	background-color: #12fd21;
+	float: left;
+}
+
+.contact {
+	width: 300px;
+	height: 368px;
+	background-color: #12fd21;
+    margin-top: 80px;
+    margin-bottom: 86px;
+	float: right;
+}
+
+.footer-page {
+	width: 940px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.footer-top {
+	height: 193px;
+	background-color: #32425c;
+}
+
+.adress-footer {
+	float: left;
+}
+
+.footer-nav {
+	height: 71px;
+	width: 550px;
+	margin-top: 42px;
+	margin-left: 10px;
+	background-color: yellowgreen;
+	float: right;
 }
