@@ -1,0 +1,298 @@
+body {
+	font-family: "PTSans", "Cuprum";
+	font-size 17px;
+	color: #000000;
+	font-weight: normal;
+	
+}
+
+.page-header {
+	background-color: #293449;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.page-header img {
+	float: left;
+}
+
+.search {
+    min-height: 42px;
+    width: 230px;
+    margin-left: 10px;
+    float: left;
+    background-color: green;
+}
+
+.orders-block{
+    min-height: 42px;
+    width: 460px;
+    float: right;
+    background-color: red;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-main {
+	background-color: #f1f5f7;
+	height: 279px;
+	width: 940px;
+}
+
+.about-site {
+	width: 202px;
+	height: 79px;
+	margin-top: 44px;
+	margin-left: 51px;
+	float: left;
+	background-color: yellow;
+}
+
+.main-contacts {
+	width: 273px;
+	height: 79px;
+	margin-top: 44px;
+	margin-left: 69px;
+	background-color: red;
+	float: left;
+}
+
+.user-block {
+	height: 79px;
+	width: 300px;
+	background-color: #344;
+	margin-top: 44px;
+	margin-bottom: 35px;
+	float: right;
+}
+
+.login {
+	height: 45px;
+	width: 299px;
+	background-color: #ffffff;
+	float: left;
+}
+
+.orders-personal {
+	width: 230px;
+	height: 30px;
+	float: right;
+}
+
+.main-nav {
+	height: 60px;
+	width: 940px;
+	background-color: #32425c;
+	clear: both;
+}
+
+.middle-main {
+	width: 1200px;
+	height: 1370px;
+	margin: 0 auto;
+
+}
+
+.breadcrumbs {
+	width: 380px;
+	height: 30px;
+	margin-top: 15px;
+}
+
+.drill-title {
+	width: 940px;
+	height: 89px;
+	background-color: #f2f6f8;
+}
+
+.product-block {
+	width: 940px;
+	height: 1142px;
+	margin-top: 20px;
+}
+
+.filters {
+	width: 220px;
+	height: 760px;
+	float: left;
+}
+
+.sorting-products {
+	width: 700px;
+	height: 1142px;
+	margin-left: 20px;
+	float: right;
+}
+
+.filter-name {
+	width: 220px;
+	height: 38px;
+	background-color: #f7f3ec;
+}
+
+.philters-price {
+	width: 220px;
+	height: 190px;
+	margin-top: 18px;
+}
+
+
+.philters-company {
+	width: 220px;
+	height: 260px;
+	margin-top: 21px;
+}
+
+.filters-power {
+	width: 220px;
+	height: 260px;
+	margin-top: 25px;
+}
+
+.sorting {
+	width: 700px;
+	height: 38px;
+	margin-top: 16px;
+	background-color: #f7f3ec;
+}
+
+.sorting-name {
+	height: 38px;
+	width: 140px;
+	float:left;
+}
+
+.kind_sorting {
+	width: 480px;
+	height: 38px;
+	margin-left: 80px;
+	float: right;
+}
+
+.tile-products {
+	width: 700px;
+	height: 994px;
+	margin-top: 20px;
+}
+
+.tile {
+	width: 220px;
+	height: 318px;
+	margin-right: 16px;
+	margin-bottom: 20px;
+	display: inline-block;
+	background-color: red;
+
+}
+
+.tile:nth-child(3n) {
+	margin-right: 0px;
+}
+
+.next-page {
+	width: 284px;
+	height: 38px;
+	margin-top: 52px;
+}
+
+.bottom-main {
+	width: 940px;
+	height: 261px;
+	background-color: #f2f6f8;
+}
+
+.footer-page {
+	height: 300px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.footer-top {
+	height: 193px;
+	background-color: #32425c;
+}
+
+.adress-logo-footer {
+	width: 300px;
+	height: 180px;
+	float: left;
+}
+
+.adress-logo-footer p {
+	margin-left: 5px;
+}
+
+.footer-nav {
+	margin-top: 38px;
+	margin-left: 60px;
+	width: 550px;
+	height: 75px;
+	float: right;
+	background-color: yellowgreen;
+}
+
+.nav-top {
+	height: 35px;
+	width: 550px;
+	background-color: white;
+	float: left;
+}
+
+.nav-bottom {
+	height: 38px;
+	width: 550px;
+	background-color: green;
+	float: right;
+}
+
+.footer-bottom {
+	height: 107px;
+	background-color: #293449;
+}
+
+.copyright {
+	width: 230px;
+	height: 36px;
+	margin-top: 38px;
+	margin-left: 5px;
+	float: left;
+}
+
+.footer-smd {
+	width: 560px;
+	height: 50px;
+	margin-left: 120px;
+	margin-top: 30px;
+	float: right;
+}
+
+.social {
+	width: 160px;
+	height: 50px;
+	margin-left: 5px;
+	float: left;
+}
+
+.mail {
+	width: 140px;
+	height: 50px;
+	margin-left: 60px;
+	float: left;
+}
+
+.devoloped {
+	width: 140px;
+	height: 50px;
+	margin-left: 20px;
+	float: right;
+}
