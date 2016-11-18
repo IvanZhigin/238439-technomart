@@ -1,14 +1,10 @@
 body {
-	font-family: "PTSans", "Cuprum";
-	font-size 17px;
-	color: #000000;
-	font-weight: normal;
+	min-width: 940px;
 	
 }
 
 .page-header {
 	background-color: #293449;
-	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -45,7 +41,6 @@ body {
 }
 
 .main-page {
-	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -237,7 +232,6 @@ body {
 
 .service-block {
 	background-color: #f2f6f8;
-	width: 940px;
 	height: 454px;
 	margin-top: 55px;
 }
@@ -278,6 +272,11 @@ body {
 	float: right;
 }
 
+.contacts-shop {
+	height: 536px;
+	margin: 0 auto;
+}
+
 .about-us {
 	height: 368px;
 	width: 540px;
@@ -297,7 +296,6 @@ body {
 
 .footer-page {
 	height: 300px;
-	width: 1200px;
 	margin: 0 auto;
 }
 

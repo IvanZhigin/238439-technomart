@@ -8,7 +8,6 @@ body {
 
 .page-header {
 	background-color: #293449;
-	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -46,7 +45,6 @@ body {
 .top-main {
 	background-color: #f1f5f7;
 	height: 279px;
-	width: 940px;
 }
 
 .about-site {
@@ -206,14 +204,12 @@ body {
 }
 
 .bottom-main {
-	width: 940px;
 	height: 261px;
 	background-color: #f2f6f8;
 }
 
 .footer-page {
 	height: 300px;
-	width: 1200px;
 	margin: 0 auto;
 }
 
