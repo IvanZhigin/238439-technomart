@@ -1,11 +1,15 @@
 body {
-	min-width: 940px;
-	
+	min-width: 960px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 17px;
+	font-family: "Cuprum", "PT sans", sans-serif;
+	text-transform: uppercase;
 }
 
 .page-header {
 	background-color: #293449;
-	margin: 0 auto;
+	min-height: 42px;
 }
 
 .container {
@@ -14,34 +18,64 @@ body {
 	margin: 0 auto;
 }
 
-.header-logo {
+.page-header img {
 	width: 220px;
+	height: 47px;
 	float: left;
 }
 
 .search {
-    min-height: 42px;
-    width: 230px;
+    height: 42px;
+    width: 270px;
     float: left;
-    background-color: green;
-    
+}
+
+.search p {
+	vertical-align: top;
+	position: relative;
+	left: 49px;
+	top: -5px;
+	font-family: "Cuprum", sans-serif;
+	color: #ffffff;
+	vertical-align: top;
+
 }
 
 .orders-block{
-    min-height: 42px;
-    width: 460px;
+    width: 450px;
     float: right;
-    background-color: red;
 }
+
+.orders-block ul {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+.orders-block li {
+    display: inline-block;
+    white-space: nowrap;
+    height: 42px;
+}
+
+.orders-block a {
+	vertical-align: top;
+	text-decoration: none;
+	display: block;
+	padding: 10px 30px;
+	font-family: "Cuprum", sans-serif;
+	color: #ffffff;
+}
+
+.orders-block li:last-child {
+	background-color: #63a63e;
+}
+
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
-}
-
-.main-page {
-	margin: 0 auto;
 }
 
 .top-main {
@@ -218,7 +252,7 @@ body {
 
 .tileC  {
 	margin-bottom: 20px;
-	margin-right: 16px;
+	margin-right: 15px;
 	width: 220px;
 	height: 145px;
 	display: inline-block;
