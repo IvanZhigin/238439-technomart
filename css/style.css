@@ -4,7 +4,6 @@ body {
 	font-size: 17px;
 	line-height: 17px;
 	font-family: "Cuprum", "PT sans", sans-serif;
-	text-transform: uppercase;
 }
 
 .page-header {
@@ -26,7 +25,7 @@ body {
 
 .search {
     height: 42px;
-    width: 270px;
+    width: 260px;
     float: left;
 }
 
@@ -38,7 +37,6 @@ body {
 	font-family: "Cuprum", sans-serif;
 	color: #ffffff;
 	vertical-align: top;
-
 }
 
 .orders-block{
@@ -62,7 +60,7 @@ body {
 	vertical-align: top;
 	text-decoration: none;
 	display: block;
-	padding: 10px 30px;
+	padding: 10px 35px;
 	font-family: "Cuprum", sans-serif;
 	color: #ffffff;
 }
@@ -89,7 +87,12 @@ body {
 	margin-top: 38px;
 	margin-left: 51px;
 	float: left;
-	background-color: yellow;
+	font-family: "Cuprum" sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #ee3643;
 }
 
 .main-contacts {
@@ -98,7 +101,26 @@ body {
 	float: left;
 	margin-top: 43px;
 	margin-left: 68px;
-	background-color: red;
+}
+
+.contact-phone span {
+	font-size: 21px;
+	color: #ee3643;
+	font-weight: 700;
+	font-family: "Cuprum" sans-serif;
+	position: relative;
+	left: 70px;
+	top: 14px;
+}
+
+.main-contacts p {
+	font-family: "Cuprum" sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #32425c;
+	position: relative;
+	top: 26px;
+	left: 5px;
 }
 
 .user-block {
@@ -108,7 +130,40 @@ body {
     margin-right: 10px;
     margin-top: 47px;
     margin-bottom: 67px;
-    background-color: yellowgreen;
+}
+
+.login-in {
+	width: 120px;
+	height: 45px;
+	background-color: #ffffff;
+	float: left;
+}
+
+.login-in a {
+	position: relative;
+	left: 49px;
+	top: 13px;
+	font-size: 21px;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Cuprum", sans-serif;
+}
+
+.registration {
+	width: 150px;
+	height: 45px;
+	background-color: #ffffff;
+	float: right;
+}
+
+.registration a {
+	font-size: 21px;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Cuprum", sans-serif;
+	position: relative;
+	top: 13px;
+	left: 25px;
 }
 
 .main-nav {
@@ -117,6 +172,21 @@ body {
 	clear: both;
 	background-color: #32425c;
 	margin-top: 160px;
+}
+
+.main-nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.main-nav a {
+
 }
 
 .menu {
