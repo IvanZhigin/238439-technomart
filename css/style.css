@@ -186,7 +186,11 @@ body {
 }
 
 .main-nav a {
-
+    vertical-align: top;
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    color: #ffffff;
 }
 
 .menu {
@@ -207,12 +211,73 @@ body {
 	background-color: #f6b22d;
 }
 
+.materials h3 {
+	font-family: "Cuprum", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #ffffff;
+	position: relative;
+	top: 5px;
+	left: 25px;
+}
+
+.materials img {
+	position: relative;
+	left: 213px;
+	bottom: 28px;
+}
+
+.materials input {
+	width: 136px;
+	height: 38px;
+	background-color: #dda028;
+	font-family: "Cuprum", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	border-radius: 5px; 
+	position: relative;
+    top: -40px;
+    left: -22px;
+}
+
 .tool {
 	width: 300px;
 	height: 123px;
 	float: left;
 	margin-left: 20px;
 	background-color: #4aafde;
+}
+
+.tool h3 {
+    font-family: "Cuprum", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #ffffff;
+	position: relative;
+	top: 5px;
+	left: 25px;
+}
+
+.tool img {
+	position: relative;
+	left: 198px;
+	bottom: 29px;
+}
+
+
+.tool input {
+	width: 136px;
+	height: 38px;
+	background-color: #429dc7;
+	font-family: "Cuprum", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	border-radius: 5px; 
+	position: relative;
+    top: -40px;
+    left: -55px;
 }
 
 .mechanism {
@@ -223,12 +288,82 @@ body {
 	background-color: #cc79d1;
 }
 
+.mechanism h3 {
+	font-family: "Cuprum", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #ffffff;
+	position: relative;
+	top: 5px;
+	left: 25px;
+}
+
+.mechanism img {
+	position: relative;
+	left: 198px;
+	bottom: 29px;
+}
+
+.mechanism input {
+	width: 136px;
+	height: 38px;
+	background-color: #b76dbc;
+	font-family: "Cuprum", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	border-radius: 5px; 
+	position: relative;
+    top: -40px;
+    left: -55px;
+}
+
 .drill {
     height: 266px;
     width: 620px;
     margin-top: 20px;
-    background-color: #927965; 
     float: left;
+}
+
+.drill img {
+    position: relative;
+    top: -112px;
+}
+
+.drill h2 {
+    position: relative;
+	z-index: 1;
+	left: 26px;
+	top: 3px;
+	font-family: "Cuprum", sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: #ffffff;
+}
+
+.drill p {
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
+	top: -12px;
+	left: 25px;
+}
+
+.drill input {
+	position: relative;
+	top: -182px;
+    left: 25px;
+	height: 38px;
+	width: 195px;
+	font-family: "Cuprum", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #ffffff;
+	background-color: #ee3643;
+	border-radius: 5px;
 }
 
 .discount {
@@ -240,6 +375,36 @@ body {
 	background-color: #85d179;
 }
 
+.discount img {
+	position: relative;
+    left: 198px;
+	bottom: 39px;
+}
+
+.discount h3 {
+	font-family: "Cuprum", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #ffffff;
+	position: relative;
+	top: 5px;
+	left: 25px;
+}
+
+.discount input {
+	width: 136px;
+	height: 38px;
+	background-color: #77bc6d;
+	font-family: "Cuprum", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	border-radius: 5px; 
+	position: relative;
+    top: -40px;
+    left: -39px;
+}
+
 .delivery {
 	width: 300px;
 	height: 123px;
@@ -247,6 +412,36 @@ body {
 	margin-top: 20px;
 	float: right;
 	background-color: #f6b22d;
+}
+
+.delivery h3 {
+	font-family: "Cuprum", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #ffffff;
+	position: relative;
+	top: 5px;
+	left: 25px;
+}
+
+.delivery img {
+	position: relative;
+    left: 198px;
+	bottom: 35px;
+}
+
+.delivery input {
+	width: 136px;
+	height: 38px;
+	background-color: #dda028;
+	font-family: "Cuprum", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	border-radius: 5px; 
+	position: relative;
+    top: -40px;
+    left: -60px;
 }
 
 .product-block {
@@ -264,14 +459,27 @@ body {
 
 .popular-products h2 {
 	float: left;
-	margin-top: 33px;
-	margin-left: 30px;
+	font-family: "Cuprum", sans-serif;
+	font-size: 30px;
+	color: #32425c;
+	font-weight: 400;
+	position: relative;
+	left: 30px;
+	top: 11px;
 }
 
 .popular-products input {
     float: right;
     margin-top: 25px;
     margin-right: 24px;
+    width: 253px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #ee3643;
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 .tile {
@@ -282,13 +490,111 @@ body {
 .grid {
 	width: 220px;
 	height: 320px;
-	margin-right: 20px;
+	margin-right: 17px;
 	float: left;
-	background-color: yellowgreen;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #e5e5e5; 
+}
+
+.grid img {
+    position: relative;
+    top: 2px;
+}
+
+.grid:nth-child(2) img {
+    position: relative;
+	top: 20px;
+}
+
+.grid:nth-child(3) img {
+	position: relative;
+	top: 7px;
+}
+
+.grid:nth-child(4) img {
+	position: relative;
+	top: 12px;
+}
+
+.grid p {
+	width: 160px;
+	font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000000;
+    position: relative;
+    left: 30px;
+}
+
+.grid:nth-child(2) p {
+	position: relative;
+	top: 50px;
+}
+
+.grid:nth-child(3) p {
+	position: relative;
+	top: 33px;
+}
+
+.grid:nth-child(4) p {
+	position: relative;
+	top: 46px;
+}
+
+.grid .tile-price-strike {
+	font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #999999;
+    position: relative;
+    left: 35px;
+    text-decoration: line-through;
+}
+
+.grid:nth-child(2) .tile-price-strike {
+	position: relative;
+	top: 52px;
+}
+
+.grid:nth-child(3) .tile-price-strike {
+	position: relative;
+	top: 35px;
+}
+
+.grid .real-price {
+	font-family: "PT Sans", sans-serif;
+	color: #000000;
+	font-weight: 600;
+	position: relative;
+    top: 35px;
+    left: -35px;
+}
+
+.grid:nth-child(2) .real-price {
+	position: relative;
+    top: 83px;
+}
+
+.grid:nth-child(3) .real-price {
+	position: relative;
+    top: 67px;
+}
+
+.grid:nth-child(4) .real-price {
+	position: relative;
+    top: 82px;
+    left: 3px;
 }
 
 .grid:last-child{
 	margin-right: 0px;
+}
+
+.grid a {
+	text-decoration: none;
 }
 
 .company-block {
@@ -306,14 +612,27 @@ body {
 
 .popular-companies h2 {
 	float: left;
-	margin-top: 33px;
-	margin-left: 30px;
+	font-family: "Cuprum", sans-serif;
+	font-size: 30px;
+	color: #32425c;
+	font-weight: 400;
+	position: relative;
+	left: 30px;
+	top: 11px;
 }
 
 .popular-companies input {
     float: right;
     margin-top: 25px;
     margin-right: 24px;
+    width: 253px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #ee3643;
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 .grid-tileC {
@@ -322,12 +641,16 @@ body {
 
 .tileC  {
 	margin-bottom: 20px;
-	margin-right: 15px;
+	margin-right: 13px;
 	width: 220px;
 	height: 145px;
 	display: inline-block;
-	vertical-align: top;
-	background-color: red;
+	vertical-align: middle;
+	border: 1px solid #e5e5e5;
+}
+
+.tileC img {
+    
 }
 
 .tileC:nth-child(4n) {
