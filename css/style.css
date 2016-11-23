@@ -167,11 +167,12 @@ body {
 }
 
 .main-nav {
-	height: 60px;
+	height: 55px;
 	width: 940px;
 	clear: both;
 	background-color: #32425c;
 	margin-top: 160px;
+	border-bottom: 5px solid #293449;
 }
 
 .main-nav ul {
